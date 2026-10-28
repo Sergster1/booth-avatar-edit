@@ -1,7 +1,7 @@
 # Starter prompt: BOOTH base → custom avatar + outfit converter
 
 Written 2026-10-28 for handing this workflow to another agent-driven project. Paste everything between the
-lines below into a fresh agent, filling in the `<…>` slots. The method is credited to **Sergster**.
+lines below into a fresh agent, filling in the `<…>` slots.
 
 ---
 
@@ -15,8 +15,7 @@ method, the tooling and the honesty of the results. The goal has two parts:
 2. **An outfit converter:** a script that takes any outfit made for the *original* base and refits it to my
    body. It changes vertex positions and bone rests only, and the gates must prove that on every run.
 
-The method comes from a pipeline by Sergster. Credit Sergster in any derivative. Apply your own judgment
-everywhere else.
+I set the goals and approve the results; how you get there is up to your judgment.
 
 ## My character
 <one paragraph: body, head, details, vibe. Say which proportion matters most to you, e.g. "the wider the hips the better".>

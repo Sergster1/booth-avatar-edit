@@ -11,7 +11,7 @@ VRChat base avatar, reshape it into your own character with the agent, and end u
 There is **no code** here, on purpose. Your agent builds its own tools to the specs, toward the same result. You
 direct the art; the agent does the 3D maths.
 
-Based on what Sergster learned building two avatars this way. Please credit Sergster in derivatives.
+Based on what I learned building two avatars this way.
 
 ## What's inside
 

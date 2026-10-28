@@ -1,6 +1,6 @@
 # Designing a custom avatar with an agent: how it went
 
-Notes on how the user (Sergster) and an AI agent took a purchased BOOTH avatar to a custom character with its own
+Notes on how a user and an AI agent took a purchased BOOTH avatar to a custom character with its own
 outfit converter. They are written generically so someone else can use them as a guide. They describe the
 **collaboration**, not the technical method: the spec and the starter prompt cover that.
 

@@ -1,8 +1,7 @@
 # Outfit converter: general spec
 
 A requirements spec for the outfit converter, part of the `booth-avatar-edit` skill. It says **what** the converter
-must do and how to prove it, not how to build it. The method and its design choices are yours to work out. Credit
-for the original workflow: Sergster.
+must do and how to prove it, not how to build it. The method and its design choices are yours to work out.
 
 ---
 
