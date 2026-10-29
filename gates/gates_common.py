@@ -113,7 +113,9 @@ def weights_by_name(ob):
     for v in ob.data.vertices:
         for g in v.groups:
             n = gname.get(g.group)
-            if n is not None:
+            # An exact-zero entry is no skin influence: exporters and cleanup steps drop them freely, so
+            # comparing them would fail on a change nothing can see. Any non-zero weight still counts.
+            if n is not None and g.weight != 0.0:
                 w[(v.index, n)] = round(g.weight, 6)
     return w
 
