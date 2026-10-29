@@ -1,0 +1,15 @@
+{
+  "_what_this_is": "Garment-fit regressions that are MEASURED, EXPLAINED and accepted by the user. Start EMPTY: the gate then fails on any regression. Adding an entry requires evidence (a render and the numbers), never convenience. Loosening a threshold to get green is how a real defect ships.",
+  "_format": "meshes: object names; poses: pose names from poses.json or [\"*\"]; max_delta_verts / max_delta_depth_mm: the budget this entry allows over the baseline; reason: what the user saw and why they accepted it; evidence: the render and report paths; approved: date in the user's words.",
+  "accepted": [
+    {
+      "meshes": ["Outer_coat"],
+      "poses": ["seated_90_90", "both_hips_flexion_45"],
+      "max_delta_verts": 60,
+      "max_delta_depth_mm": 8.0,
+      "reason": "Loose outer garment clips the widened hip at extreme flexion; the ORIGINAL base clips here too (deeper). Fixing it means re-cutting the garment. User: 'fine, nobody sits like that in a coat'.",
+      "evidence": "renders/coat_seated_vs_baseline.png, reports/garment_delta_v3.json",
+      "approved": "YYYY-MM-DD"
+    }
+  ]
+}

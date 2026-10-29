@@ -1,0 +1,47 @@
+{
+ "blender": "5.1.2",
+ "file": "<path>/outfit_converted.blend",
+ "checks": {
+  "armature_used": "Armature",
+  "armature_transform_identity": true,
+  "mesh_transforms_identity": true,
+  "scene_unit_scale": 1.0,
+  "pose_position": "POSE",
+  "pose_is_rest": true,
+  "guard_property_set": true,
+  "meshes_with_one_armature_modifier": true,
+  "unweighted_vertices": {},
+  "materials": 3,
+  "bones": 108,
+  "deform_bones": 108,
+  "total_triangles_all_visible": 17490,
+  "total_shape_keys": 12,
+  "humanoid_bones_missing": {
+   "head": "Head"
+  },
+  "leg_rest_asymmetry_m": 1.959502696990967e-06
+ },
+ "notes": [
+  "FBX validated in Blender only. Engine-side steps (humanoid mapping, performance rank, physics bones, expression setup, texture import settings, importer normal settings) are not checked here."
+ ],
+ "fbx": "<path>/roundtrip.fbx",
+ "fbx_bytes": 1661468,
+ "excluded_from_view_layer_not_exported": [],
+ "fbx_roundtrip": {
+  "meshes_exported": 2,
+  "meshes_imported": 2,
+  "armatures_imported": 1,
+  "bones_exported": 108,
+  "bones_imported": 108,
+  "unmatched_imported_meshes": [],
+  "vertex_count_mismatches": [],
+  "blendshape_count_mismatches": [],
+  "blendshape_delta_mismatches": {},
+  "bones_missing_after_import": [],
+  "bone_head_deviation_over_tol_mm": {},
+  "bone_tail_max_deviation_mm_informational": 158.496,
+  "tolerance_mm": 1.0,
+  "PASS": true
+ },
+ "PASS": true
+}

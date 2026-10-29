@@ -25,6 +25,11 @@ Agents default to the narrowest safe tool and invent limits nobody set. You may:
 - **Use any mechanism:** bones, shape keys, displacement, shape keys driven above 1.
 - **Generate plenty, then filter:** many angles or variants, with the reviewer picking the best.
 
+## Model per task
+
+Strongest model for body shaping, converter maths and the code review; a mid-tier model is fine for routine
+image reviews; cheap for renders and plumbing. Reviewers always run as separate agents with their own context.
+
 ## Feedback
 
 - Read it **literally**. "Only this contour" means only that.
@@ -36,6 +41,8 @@ Agents default to the narrowest safe tool and invent limits nobody set. You may:
 - **Bold beats timid.** If a round was "too subtle", the next one should be clearly bigger.
 - Invite pushback ("you may disagree") and give an honest answer with evidence.
 - When something looks off, compare it with a working original (the pristine base, another avatar the user made).
+- When the user reports a visual problem, go to `troubleshooting.md`: match their words, confirm with a render or a
+  measurement, explain it back in plain words, then fix. Log the symptom with the fix in `HANDOFF.md`.
 
 ## What wastes rounds
 

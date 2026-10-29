@@ -2,7 +2,8 @@
 
 Notes on how a user and an AI agent took a purchased BOOTH avatar to a custom character with its own
 outfit converter. They are written generically so someone else can use them as a guide. They describe the
-**collaboration**, not the technical method: the spec and the starter prompt cover that.
+**collaboration**, not the technical method: the body contract and the converter spec state the requirements, and
+the gates measure them. By design there is no converter and no method here; your agent builds its own.
 
 ---
 

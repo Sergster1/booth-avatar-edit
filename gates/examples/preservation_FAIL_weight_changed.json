@@ -1,0 +1,64 @@
+{
+ "checkpoint_keys": 91,
+ "pristine_keys": 91,
+ "topology_identical": true,
+ "uv_identical": true,
+ "materials_identical": true,
+ "vertex_group_roster_identical": true,
+ "weights_identical": false,
+ "weights_changed_entries": 1,
+ "weights_changed_verts": 1,
+ "keys_removed": [],
+ "keys_added": [],
+ "keys_order_preserved": true,
+ "key_metadata_identical": true,
+ "use_relative_identical": true,
+ "drivers_identical": true,
+ "modifiers_identical": true,
+ "rig_bones_identical": true,
+ "other_meshes_identical": true,
+ "mixture_keys": {
+  "Shrink_Coat_ON": 0.5,
+  "Shrink_Chest 2": 0.5,
+  "Shrink_Dress_ON": 0.5,
+  "Foot_heel_high 2": 0.5,
+  "Foot_heel_high": 0.5,
+  "Shrink_UpperLeg": 0.5,
+  "Breast_flat": 0.5,
+  "Shrink_Spine 2": 0.5
+ },
+ "mixture_max_shift_old_vs_new_m": 0.22901219129562378,
+ "key_delta_energy_ratio_new_over_old": {
+  "min": 0.9556098207751522,
+  "max": 2.202167696013904,
+  "worst": [
+   [
+    "Shrink_Spine 1",
+    0.956
+   ],
+   [
+    "Diet_upper",
+    0.974
+   ],
+   [
+    "Shrink_Ankle_R",
+    0.999
+   ],
+   [
+    "Nyuurin_small",
+    1.781
+   ],
+   [
+    "Nyuurin_up",
+    2.198
+   ],
+   [
+    "Nyuurin_big",
+    2.202
+   ]
+  ]
+ },
+ "keys_with_zero_delta_old_but_nonzero_new": [],
+ "keys_dead_now": [],
+ "PASS": false
+}

@@ -16,5 +16,8 @@ Newest entry on top. Every session adds one before stopping.
 **Results (quote files and numbers):**
 - 
 
+**Fixes, each with the symptom it addressed (user's words → cause confirmed → change):**
+- 
+
 **Open / next:**
 1. 

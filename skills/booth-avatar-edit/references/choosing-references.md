@@ -15,7 +15,7 @@ The source matters less than naming **which image is authoritative for which att
 | Source | Watch for |
 |---|---|
 | Several artists | Conflicting designs (a texture built on the wrong garment); one artist's stylisation mistaken for anatomy (e.g. a hard ledge at stocking tops is clothing compression, not body shape). |
-| One generated style | Seeds disagree on details, so it needs a design-lock pass. Some generations quietly change proportions. Style artefacts (stylised highlights) aren't anatomy. Easy to fill gaps: rear, side, close-ups on demand. |
+| One generated style | Seeds disagree on details, so it needs a design-lock pass. Some generations quietly change proportions. Style artefacts (stylised highlights) aren't anatomy. Easy to fill gaps: rear, side, close-ups on demand. Labels lie: a "back" view may face the camera; check each image before it goes to the reviewer. |
 | 3D reference mesh | Missing or fused surfaces (under clothing, the head under hair). Measure only what's really there. |
 
 ## Rules

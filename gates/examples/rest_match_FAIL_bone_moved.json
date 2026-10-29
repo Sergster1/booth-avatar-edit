@@ -1,0 +1,23 @@
+{
+ "converted": "<path>/neg_bone.blend",
+ "avatar": "<path>/custom_avatar.blend",
+ "outfit_armature": "Armature",
+ "shared_bones": 108,
+ "outfit_only_bones": [],
+ "tolerance_mm": 1.0,
+ "tolerance_deg": 1.0,
+ "baseline_given": false,
+ "over_tolerance": {
+  "Hips": {
+   "head_mm": 5.0,
+   "axis_deg": 0.0,
+   "introduced_head_mm": 5.0
+  }
+ },
+ "pre_existing_offsets_ignored": {},
+ "worst_mm": 5.0,
+ "tail_deviations_informational_mm": {
+  "Hips": 5.0
+ },
+ "PASS": false
+}

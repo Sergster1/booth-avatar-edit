@@ -1,0 +1,18 @@
+{
+  "_what_this_is": "Poses for the fit-under-motion gate. Each op is [humanoid role, degrees, world axis]; roles come from gates_config.json so this file works on any base. Rotation is about the bone's own head, in world axes, applied to EVERY armature in the file (outfits keep their own armature copies). Copy to poses.json and add poses for the regions YOU changed: a chest edit judged with leg-only poses passes trivially.",
+  "_axes": "For a Y-up-exported, Z-up-in-Blender humanoid facing -Y: X = pitch (hip flexion, knee bend, torso bend), Y = roll (abduction), Z = yaw (twist). Check the signs on your base once with --render and keep what bends the right way.",
+  "poses": [
+    {"name": "rest", "ops": []},
+    {"name": "hip_flexion_60", "ops": [["upper_leg_L", -60, "X"]]},
+    {"name": "hip_extension_25", "ops": [["upper_leg_L", 25, "X"]]},
+    {"name": "hip_abduction_25", "ops": [["upper_leg_L", -25, "Y"]]},
+    {"name": "knee_bend_90", "ops": [["lower_leg_L", 90, "X"]]},
+    {"name": "both_hips_flexion_45", "ops": [["upper_leg_L", -45, "X"], ["upper_leg_R", -45, "X"]]},
+    {"name": "seated_90_90", "ops": [["upper_leg_L", -90, "X"], ["upper_leg_R", -90, "X"], ["lower_leg_L", 90, "X"], ["lower_leg_R", 90, "X"]]},
+    {"name": "arms_down_70", "ops": [["upper_arm_L", 70, "Y"], ["upper_arm_R", -70, "Y"]]},
+    {"name": "arms_forward_80", "ops": [["upper_arm_L", -80, "Z"], ["upper_arm_R", 80, "Z"]]},
+    {"name": "arms_crossed", "ops": [["upper_arm_L", -70, "Z"], ["upper_arm_R", 70, "Z"], ["lower_arm_L", -90, "Z"], ["lower_arm_R", 90, "Z"]]},
+    {"name": "torso_bend_30", "ops": [["spine", -30, "X"]]},
+    {"name": "torso_twist_30", "ops": [["spine", 30, "Z"]]}
+  ]
+}

@@ -1,0 +1,361 @@
+{
+ "label": "custom",
+ "file": "<path>/custom_avatar_with_outfits.blend",
+ "imported_fbx": null,
+ "depth_threshold_m": 5e-05,
+ "poses_file": "<path>/poses.example.json",
+ "garments": [
+  "bear ear",
+  "costume_bear_ribbon",
+  "costume_choker",
+  "costume_coat",
+  "costume_coat_cape",
+  "costume_coat_hoodie",
+  "costume_coat_ribbon",
+  "costume_cuffs",
+  "costume_dress",
+  "costume_hairpin",
+  "costume_leg_parts",
+  "costume_leg_warmer",
+  "costume_necklace",
+  "costume_sneakers",
+  "hair_back",
+  "hair_front",
+  "hair_front_side 1",
+  "hair_front_side 2",
+  "hair_side",
+  "hair_twin",
+  "underwear_panty",
+  "underwear_stocking_L",
+  "underwear_stocking_R",
+  "underwear_top"
+ ],
+ "armatures": [
+  "Armature"
+ ],
+ "outfit_armatures_missing_pose_bones": {},
+ "explicit_keys": null,
+ "poses": {
+  "rest": {
+   "total_verts_inside": 1391,
+   "max_depth_mm": 20.49,
+   "per_mesh": {
+    "costume_choker": {
+     "verts_inside": 6,
+     "max_depth_mm": 0.74
+    },
+    "costume_coat": {
+     "verts_inside": 429,
+     "max_depth_mm": 20.49
+    },
+    "costume_coat_cape": {
+     "verts_inside": 75,
+     "max_depth_mm": 6.35
+    },
+    "costume_coat_hoodie": {
+     "verts_inside": 196,
+     "max_depth_mm": 18.43
+    },
+    "costume_cuffs": {
+     "verts_inside": 290,
+     "max_depth_mm": 9.07
+    }
+   }
+  },
+  "hip_flexion_60": {
+   "total_verts_inside": 2120,
+   "max_depth_mm": 49.63,
+   "per_mesh": {
+    "costume_choker": {
+     "verts_inside": 6,
+     "max_depth_mm": 0.74
+    },
+    "costume_coat": {
+     "verts_inside": 656,
+     "max_depth_mm": 49.63
+    },
+    "costume_coat_cape": {
+     "verts_inside": 75,
+     "max_depth_mm": 6.35
+    },
+    "costume_coat_hoodie": {
+     "verts_inside": 196,
+     "max_depth_mm": 18.43
+    },
+    "costume_cuffs": {
+     "verts_inside": 290,
+     "max_depth_mm": 9.07
+    }
+   }
+  },
+  "hip_extension_25": {
+   "total_verts_inside": 1405,
+   "max_depth_mm": 20.48,
+   "per_mesh": {
+    "costume_choker": {
+     "verts_inside": 6,
+     "max_depth_mm": 0.74
+    },
+    "costume_coat": {
+     "verts_inside": 431,
+     "max_depth_mm": 20.48
+    },
+    "costume_coat_cape": {
+     "verts_inside": 75,
+     "max_depth_mm": 6.35
+    },
+    "costume_coat_hoodie": {
+     "verts_inside": 196,
+     "max_depth_mm": 18.43
+    },
+    "costume_cuffs": {
+     "verts_inside": 290,
+     "max_depth_mm": 9.07
+    }
+   }
+  },
+  "hip_abduction_25": {
+   "total_verts_inside": 1437,
+   "max_depth_mm": 20.45,
+   "per_mesh": {
+    "costume_choker": {
+     "verts_inside": 6,
+     "max_depth_mm": 0.74
+    },
+    "costume_coat": {
+     "verts_inside": 427,
+     "max_depth_mm": 20.45
+    },
+    "costume_coat_cape": {
+     "verts_inside": 75,
+     "max_depth_mm": 6.35
+    },
+    "costume_coat_hoodie": {
+     "verts_inside": 196,
+     "max_depth_mm": 18.43
+    },
+    "costume_cuffs": {
+     "verts_inside": 290,
+     "max_depth_mm": 9.07
+    }
+   }
+  },
+  "knee_bend_90": {
+   "total_verts_inside": 1456,
+   "max_depth_mm": 20.45,
+   "per_mesh": {
+    "costume_choker": {
+     "verts_inside": 6,
+     "max_depth_mm": 0.74
+    },
+    "costume_coat": {
+     "verts_inside": 429,
+     "max_depth_mm": 20.45
+    },
+    "costume_coat_cape": {
+     "verts_inside": 75,
+     "max_depth_mm": 6.35
+    },
+    "costume_coat_hoodie": {
+     "verts_inside": 196,
+     "max_depth_mm": 18.43
+    },
+    "costume_cuffs": {
+     "verts_inside": 290,
+     "max_depth_mm": 9.07
+    }
+   }
+  },
+  "both_hips_flexion_45": {
+   "total_verts_inside": 2601,
+   "max_depth_mm": 49.7,
+   "per_mesh": {
+    "costume_choker": {
+     "verts_inside": 6,
+     "max_depth_mm": 0.74
+    },
+    "costume_coat": {
+     "verts_inside": 741,
+     "max_depth_mm": 49.24
+    },
+    "costume_coat_cape": {
+     "verts_inside": 75,
+     "max_depth_mm": 6.35
+    },
+    "costume_coat_hoodie": {
+     "verts_inside": 196,
+     "max_depth_mm": 18.43
+    },
+    "costume_cuffs": {
+     "verts_inside": 290,
+     "max_depth_mm": 9.07
+    }
+   }
+  },
+  "seated_90_90": {
+   "total_verts_inside": 2757,
+   "max_depth_mm": 49.71,
+   "per_mesh": {
+    "costume_choker": {
+     "verts_inside": 6,
+     "max_depth_mm": 0.74
+    },
+    "costume_coat": {
+     "verts_inside": 934,
+     "max_depth_mm": 49.42
+    },
+    "costume_coat_cape": {
+     "verts_inside": 75,
+     "max_depth_mm": 6.35
+    },
+    "costume_coat_hoodie": {
+     "verts_inside": 196,
+     "max_depth_mm": 18.43
+    },
+    "costume_cuffs": {
+     "verts_inside": 290,
+     "max_depth_mm": 9.07
+    }
+   }
+  },
+  "arms_down_70": {
+   "total_verts_inside": 2098,
+   "max_depth_mm": 30.61,
+   "per_mesh": {
+    "costume_choker": {
+     "verts_inside": 6,
+     "max_depth_mm": 0.74
+    },
+    "costume_coat": {
+     "verts_inside": 429,
+     "max_depth_mm": 20.45
+    },
+    "costume_coat_cape": {
+     "verts_inside": 84,
+     "max_depth_mm": 4.71
+    },
+    "costume_coat_hoodie": {
+     "verts_inside": 261,
+     "max_depth_mm": 22.72
+    },
+    "costume_cuffs": {
+     "verts_inside": 290,
+     "max_depth_mm": 9.11
+    }
+   },
+   "expects_body_keys": {
+    "underwear_stocking_L": {
+     "group": "stocking/garter squeeze",
+     "without": 1,
+     "with_keys_on": 0
+    }
+   }
+  },
+  "arms_forward_80": {
+   "total_verts_inside": 2394,
+   "max_depth_mm": 28.05,
+   "per_mesh": {
+    "costume_bear_ribbon": {
+     "verts_inside": 412,
+     "max_depth_mm": 27.37
+    },
+    "costume_choker": {
+     "verts_inside": 6,
+     "max_depth_mm": 0.74
+    },
+    "costume_coat": {
+     "verts_inside": 614,
+     "max_depth_mm": 28.05
+    },
+    "costume_coat_cape": {
+     "verts_inside": 320,
+     "max_depth_mm": 12.91
+    },
+    "costume_coat_hoodie": {
+     "verts_inside": 211,
+     "max_depth_mm": 18.67
+    }
+   }
+  },
+  "arms_crossed": {
+   "total_verts_inside": 2807,
+   "max_depth_mm": 25.65,
+   "per_mesh": {
+    "costume_bear_ribbon": {
+     "verts_inside": 184,
+     "max_depth_mm": 20.83
+    },
+    "costume_choker": {
+     "verts_inside": 6,
+     "max_depth_mm": 0.74
+    },
+    "costume_coat": {
+     "verts_inside": 747,
+     "max_depth_mm": 25.65
+    },
+    "costume_coat_cape": {
+     "verts_inside": 244,
+     "max_depth_mm": 10.17
+    },
+    "costume_coat_hoodie": {
+     "verts_inside": 201,
+     "max_depth_mm": 18.66
+    }
+   }
+  },
+  "torso_bend_30": {
+   "total_verts_inside": 1452,
+   "max_depth_mm": 19.97,
+   "per_mesh": {
+    "costume_choker": {
+     "verts_inside": 6,
+     "max_depth_mm": 0.74
+    },
+    "costume_coat": {
+     "verts_inside": 421,
+     "max_depth_mm": 19.97
+    },
+    "costume_coat_cape": {
+     "verts_inside": 75,
+     "max_depth_mm": 6.35
+    },
+    "costume_coat_hoodie": {
+     "verts_inside": 196,
+     "max_depth_mm": 18.43
+    },
+    "costume_cuffs": {
+     "verts_inside": 290,
+     "max_depth_mm": 9.11
+    }
+   }
+  },
+  "torso_twist_30": {
+   "total_verts_inside": 1451,
+   "max_depth_mm": 20.61,
+   "per_mesh": {
+    "costume_choker": {
+     "verts_inside": 6,
+     "max_depth_mm": 0.74
+    },
+    "costume_coat": {
+     "verts_inside": 481,
+     "max_depth_mm": 20.61
+    },
+    "costume_coat_cape": {
+     "verts_inside": 75,
+     "max_depth_mm": 6.35
+    },
+    "costume_coat_hoodie": {
+     "verts_inside": 196,
+     "max_depth_mm": 18.43
+    },
+    "costume_cuffs": {
+     "verts_inside": 290,
+     "max_depth_mm": 9.11
+    }
+   }
+  }
+ },
+ "total_all_poses": 23369,
+ "_note": "example trimmed to 5 meshes per pose"
+}

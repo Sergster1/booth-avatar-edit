@@ -1,0 +1,46 @@
+{
+  "_what_this_is": "Names that differ between base avatars. Copy to gates_config.json and fill in YOUR base's names (open the purchased .blend/.fbx and read them off the outliner). Keys starting with _ are comments.",
+
+  "body_mesh": "Body_mesh",
+  "_body_mesh": "The mesh the body edit is applied to; it carries the body shape keys.",
+
+  "face_mesh": "Face_mesh",
+  "_face_mesh": "The head/face mesh. It sits inside the head by design and is excluded from garment-fit counting and from conversion. Set to \"\" if the face is part of the body mesh.",
+
+  "armature": "Armature",
+  "_armature": "The avatar's rig object name.",
+
+  "guard_property": "outfit_conversion_complete",
+  "_guard_property": "The custom property your converter sets on the outfit armature when a file has been converted. Note: FBX export drops custom properties, so this alone cannot detect an already-converted outfit after a round trip; your converter needs a second check (the spec, section 3.4).",
+
+  "humanoid_bones": {
+    "hips": "Hips",
+    "spine": "Spine",
+    "chest": "Chest",
+    "neck": "Neck",
+    "head": "Head",
+    "upper_arm_L": "UpperArm_L",
+    "lower_arm_L": "LowerArm_L",
+    "hand_L": "Hand_L",
+    "upper_arm_R": "UpperArm_R",
+    "lower_arm_R": "LowerArm_R",
+    "hand_R": "Hand_R",
+    "upper_leg_L": "UpperLeg_L",
+    "lower_leg_L": "LowerLeg_L",
+    "foot_L": "Foot_L",
+    "upper_leg_R": "UpperLeg_R",
+    "lower_leg_R": "LowerLeg_R",
+    "foot_R": "Foot_R"
+  },
+  "_humanoid_bones": "Role -> bone name on this base. poses.json refers to roles, not names, so one pose file works on any base. If a role is missing here and a pose needs it, the fit gate stops with an error instead of silently measuring the rest pose.",
+
+  "expected_body_key_groups": [
+    {"name": "stocking/garter squeeze", "match": {"contains": ["squeeze"]}},
+    {"name": "leg shrink", "match": {"startswith": ["shrink_"], "contains": ["leg", "knee", "ankle", "foot", "toe", "hips"]}},
+    {"name": "all shrink/squeeze", "match": {"contains": ["squeeze"], "startswith": ["shrink_"]}}
+  ],
+  "_expected_body_key_groups": "Body shape keys that outfits may expect to be ON (the base's 'squeeze under a sock band' or 'shrink the body under clothing' keys). Smallest group first. When a garment penetrates, the fit gate retries with each group on and reports which group explains it. Match rules: contains / startswith / exact, case-insensitive except exact. Read your base's key list and adjust.",
+
+  "mixture_keys": "auto",
+  "_mixture_keys": "For the preservation audit's key-mixture check: either \"auto\" (the eight keys with the largest effect, each at 0.5) or an explicit map {\"KeyName\": 0.8, ...}. An empty selection is an error, not a pass."
+}

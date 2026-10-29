@@ -1,0 +1,30 @@
+{
+ "converted": "<path>/roundtrip.fbx",
+ "avatar": "<path>/custom_avatar.blend",
+ "outfit_armature": "Armature",
+ "shared_bones": 108,
+ "outfit_only_bones": [],
+ "tolerance_mm": 1.0,
+ "tolerance_deg": 1.0,
+ "baseline_given": true,
+ "over_tolerance": {},
+ "pre_existing_offsets_ignored": {},
+ "worst_mm": 0.0,
+ "tail_deviations_informational_mm": {
+  "Belly_Hips_end": 6.54,
+  "Breast_L.001_end": 56.68,
+  "Breast_R.001_end": 56.68,
+  "Butt_L_end": 34.11,
+  "Butt_R_end": 34.14,
+  "Hand_twist_L": 158.5,
+  "Hand_twist_R": 158.49,
+  "Hips": 19.95,
+  "LowerArm_twist_L": 81.75,
+  "LowerArm_twist_R": 81.76,
+  "Neck": 109.64,
+  "Spine": 10.27,
+  "UpperLeg_L": 60.25,
+  "UpperLeg_R": 60.36
+ },
+ "PASS": true
+}

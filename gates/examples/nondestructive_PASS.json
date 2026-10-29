@@ -1,0 +1,24 @@
+{
+ "source": "<path>/outfit_source.fbx",
+ "checked": [
+  [
+   "Bikini_bottom",
+   "Bikini_bottom"
+  ],
+  [
+   "Bikini_top",
+   "Bikini_top"
+  ]
+ ],
+ "missing_in_source": [],
+ "uv_mismatches": {},
+ "topology_mismatches": [],
+ "material_mismatches": [],
+ "weight_mismatches": {},
+ "weight_changes_allowed": {},
+ "key_structure_mismatches": [],
+ "vertex_group_mismatches": [],
+ "custom_normal_mismatches": {},
+ "custom_normals_compared": true,
+ "PASS": true
+}
