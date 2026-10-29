@@ -120,6 +120,6 @@ Begin with Phase A. Read what's in the workspace, then ask me your questions.
 
 - **For agents without skill support.** Claude Code users should install `skills/booth-avatar-edit/` instead. Give
   the agent this prompt plus `references/converter-spec.md`, `references/body-contract.md`,
-  `references/troubleshooting.md`, the two `templates/`, and the `gates/` folder; `DESIGN_PROCESS_NOTES.md` is for
+  `references/troubleshooting.md`, the two `templates/`, and the `skills/booth-avatar-edit/gates/` folder (as `gates/` in your project); `DESIGN_PROCESS_NOTES.md` is for
   the person. On purpose, there is no converter and no record of our implementation, so they build their own toward
   the same result; the gates measure whether they got there.

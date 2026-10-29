@@ -1,0 +1,11 @@
+{
+  "name": "booth-avatar-edit",
+  "version": "1.0.0",
+  "description": "Reshape a purchased VRChat base avatar (BOOTH) into your own character with an agent, and build an outfit converter so clothes made for the base fit the edited body. Includes acceptance gates.",
+  "author": {
+    "name": "Sergster1",
+    "url": "https://github.com/Sergster1"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/Sergster1/booth-avatar-edit"
+}

@@ -16,7 +16,9 @@ then the user, then the avatar worn in game. Numbers are supporting evidence onl
 ## Every session
 
 1. Read `docs/DECISIONS.md` and `docs/HANDOFF.md` in the project. If they don't exist, copy them from this
-   skill's `templates/` folder.
+   skill's `templates/` folder. If the project has no `gates/` folder, copy `${CLAUDE_SKILL_DIR}/gates/` into the
+   project root as `gates/` (keep the scripts together; set up its config per `gates/README.md`). Every `gates/`
+   path in this skill means the project's copy; never edit or write reports into the installed skill.
 2. If you're new to the project, re-run the last recorded command from `HANDOFF.md` and confirm it reproduces the
    current checkpoint before changing anything.
 3. Quote the user's decisions from `DECISIONS.md`, not from memory. Write each new decision or tip the moment it's

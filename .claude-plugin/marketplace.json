@@ -1,0 +1,14 @@
+{
+  "name": "booth-avatar-edit",
+  "description": "A Claude Code skill and acceptance gates for turning a purchased BOOTH avatar into your own character.",
+  "owner": {
+    "name": "Sergster1"
+  },
+  "plugins": [
+    {
+      "name": "booth-avatar-edit",
+      "source": "./",
+      "description": "Reshape a BOOTH base avatar into your own character and build an outfit converter for it, with acceptance gates."
+    }
+  ]
+}

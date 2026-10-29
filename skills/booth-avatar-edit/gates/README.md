@@ -1,15 +1,16 @@
 # Gates: the acceptance measurements
 
-A reference implementation of the gates in `skills/booth-avatar-edit/references/converter-spec.md` §5 and
-`body-contract.md`. They measure outcomes; they contain no converter and no body tool. Your agent may use them as they
+A reference implementation of the gates in the skill's `references/converter-spec.md` §5 and
+`references/body-contract.md`. They measure outcomes; they contain no converter and no body tool. Your agent may use them as they
 are or rewrite them, but the **behaviour** is the spec: baseline on the original base first, thresholds set by flag
 before looking, every result written to a report file, a pass only when something was actually measured.
 
-MIT licensed (see `../LICENSE`). Tested with Blender 5.1 headless; the Blender API calls used go back to 3.5.
+MIT licensed (see `LICENSE` in this folder). Tested with Blender 5.1 headless; the Blender API calls used go back to 3.5.
 
 ## Setup
 
-1. Copy `gates/` next to your project (or anywhere; the scripts find each other by location).
+1. The skill copies this folder into your project as `gates/` (keep the scripts together; they find each other by
+   location). Without the skill, copy it yourself.
 2. `cp gates_config.example.json gates_config.json` and fill in your base's names: body mesh, face mesh, armature,
    humanoid bone map, the key patterns outfits may expect, the guard property your converter sets.
 3. `cp poses.example.json poses.json`; add poses for the regions you changed, and check the signs once with `--render`.

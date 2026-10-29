@@ -112,7 +112,7 @@ one of these, go to `troubleshooting.md`.
 ## 5. Gates (acceptance)
 
 **Set every threshold before you look at results**, and write it down. Each gate is a script that writes a report
-file and returns pass/fail. A reference implementation of these measurements ships in `gates/`. Use it, or rewrite
+file and returns pass/fail. A reference implementation of these measurements ships with the skill in `gates/` (copied into the project). Use it, or rewrite
 it, but match its behaviour: baseline on the original base first, thresholds set by flag before looking, reports as
 files, an error (never a pass) when nothing could be measured.
 

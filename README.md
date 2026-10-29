@@ -9,7 +9,7 @@ Start from a purchased VRChat base avatar, reshape it into your own character wi
   outfits follow.
 
 There is **no converter** here, on purpose: your agent builds its own to the spec, toward the same result. What *is*
-included is the set of acceptance **gates** (`gates/`), because measuring wrong was the most expensive mistake in
+included is the set of acceptance **gates** (bundled with the skill in `gates/`), because measuring wrong was the most expensive mistake in
 both builds this comes from. You direct the art; the agent does the 3D maths.
 
 Based on what I learned building two avatars this way.
@@ -19,19 +19,29 @@ Based on what I learned building two avatars this way.
 | Path | For | What it is |
 |---|---|---|
 | `skills/booth-avatar-edit/` | the agent | The skill: phases, gates, hard rules, and references (body contract, converter spec, choosing references, working with the user, troubleshooting) plus `DECISIONS.md` / `HANDOFF.md` templates |
-| `gates/` | the agent | Headless-Blender scripts that measure the gates (vertex IDs, preservation, non-destructive, fit under motion vs the original base, rest match, FBX round trip), a config for your base's names, pose and accepted-regression templates, example reports. MIT |
+| `skills/booth-avatar-edit/gates/` | the agent | Headless-Blender scripts that measure the gates (vertex IDs, preservation, non-destructive, fit under motion vs the original base, rest match, FBX round trip), a config for your base's names, pose and accepted-regression templates, example reports. The skill copies them into your project. MIT |
 | `docs/DESIGN_PROCESS_NOTES.md` | you | How the design process went: what worked, what sped it up, what slowed it down, and the nudges that changed the result |
 | `docs/BOOTH_AVATAR_STARTER_PROMPT.md` | agents without skills | The same workflow as a paste-in prompt with fill-in slots |
 
 ## Install (Claude Code)
 
-Copy `skills/booth-avatar-edit/` into `~/.claude/skills/` (all projects) or `<your project>/.claude/skills/` (one
-project). Copy `gates/` into your project (e.g. `<your project>/gates/`). Then open your project and describe what you
-want, e.g. *"I bought the Kumaly base and some outfits; help me turn her into my own character."* The skill loads
-when the task matches.
+In Claude Code:
+
+```
+/plugin marketplace add Sergster1/booth-avatar-edit
+/plugin install booth-avatar-edit@booth-avatar-edit
+```
+
+(On Claude Code 2.1.275 or later, `/plugin install booth-avatar-edit --marketplace Sergster1/booth-avatar-edit` does
+both in one step.) Or copy `skills/booth-avatar-edit/` into `~/.claude/skills/` by hand.
+
+Then open your project folder and describe what you want, e.g. *"I bought the Kumaly base and some outfits; help me
+turn her into my own character."* The skill loads when the task matches (or run `/booth-avatar-edit:booth-avatar-edit`).
+On the first session the agent copies the gates and the `DECISIONS.md` / `HANDOFF.md` templates into your project.
 
 Other agents: paste `docs/BOOTH_AVATAR_STARTER_PROMPT.md` and give them
-`skills/booth-avatar-edit/references/converter-spec.md`, `body-contract.md`, the two templates and `gates/`.
+`skills/booth-avatar-edit/references/converter-spec.md`, `body-contract.md`, the two templates and
+`skills/booth-avatar-edit/gates/` (as `gates/` in your project).
 
 ## What you need
 
